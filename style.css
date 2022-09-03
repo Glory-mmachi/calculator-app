@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(171, 225, 207);
+  text-align: center;
+}
+.keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 200px auto;
+  width: 300px;
+  height: 280px;
+}
+input {
+  background: white;
+  border-radius: 6px;
+  width: 90%;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  padding: 12px;
+}
+.c {
+  margin-left: 7px;
+  height: 50px;
+  width: 80px;
+  background: rgb(244, 15, 15);
+  color: white;
+  font-size: large;
+}
+.first--line {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  text-align: center;
+  margin-left: 5px;
+}
+.second--line {
+  margin-top: 4px;
+}
+button {
+  height: 50px;
+  width: 70px;
+  border-radius: 9px;
+  font-size: large;
+}
+button:hover {
+  background: rgb(210, 247, 247);
+}
+button:active {
+  color: aliceblue;
+  background: rgb(86, 92, 93);
+}
+.third--line {
+  margin-top: 4px;
+}
+.forth--line {
+  margin-top: 4px;
+}
+.fifth--line {
+  margin-top: 4px;
+}
+.neg {
+  background-color: rgb(136, 222, 215);
+}
+.division {
+  background-color: rgb(136, 222, 215);
+}
+.multiplication {
+  background-color: rgb(136, 222, 215);
+}
+.plus {
+  background-color: rgb(136, 222, 215);
+}
+.equal {
+  background-color: rgb(18, 209, 196);
+}
